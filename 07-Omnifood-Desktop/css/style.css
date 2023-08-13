@@ -42,8 +42,16 @@
 }
 
 html {
-  font-size: 10px;
+  /* font-size: 10px; */
   /* 1 rem = 10px oldu bu kodla beraber */
+
+  /* 
+  10 px istiyorum ama bi yandan da responsive olsun, kullanıcıya font büyüklüğünü değiştirme imkanı verebileyim. font-size: 10px yazarak direkt 10px e fixliyorum.
+  bunu düzeltmek için 10px / 16px = 0.625 = 62.5%
+  Kullanıcının browerserının font-size yüzdesi.
+  16 * 0.625 = 10
+  */
+  font-size: 62.5%;
 }
 
 body {
