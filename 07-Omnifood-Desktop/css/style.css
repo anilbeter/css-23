@@ -41,6 +41,11 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 10px;
+  /* 1 rem = 10px oldu bu kodla beraber */
+}
+
 body {
   font-family: sans-serif;
   line-height: 1;
@@ -56,6 +61,7 @@ body {
 
   max-width: 50rem;
   /* 1 rem = 16px by default (50*16 -> 800px) */
+  /* 1 rem = 10px yaptım (satır45)10*50 = 500 px oldu */
   color: #fff;
   font-size: 2rem;
   padding: 4rem;
