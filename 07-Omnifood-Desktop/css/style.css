@@ -16,7 +16,7 @@
  ----- 02 COLORS
 
  - Primary: #e67e22
- - Tints:
+ - Tints: #fdf2e9
  - Shades:
  - Accents:
  - Greys: 
@@ -61,6 +61,11 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+}
+
+.section-hero {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
 }
 
 .hero {
