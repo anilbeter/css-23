@@ -60,17 +60,3 @@ body {
   font-weight: 400;
   color: #555;
 }
-
-.test {
-  background-color: red;
-  /* width: 1000px; */
-  /* max-width: 1000px; */
-  /* width en fazla 1000px oluyor, ekranı küçülttükçe parent elementin widthini almaya başlıyor, bu örnekte body */
-
-  max-width: 50rem;
-  /* 1 rem = 16px by default (50*16 -> 800px) */
-  /* 1 rem = 10px yaptım (satır45)10*50 = 500 px oldu */
-  color: #fff;
-  font-size: 2rem;
-  padding: 4rem;
-}
