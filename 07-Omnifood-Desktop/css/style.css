@@ -272,7 +272,11 @@ body {
 /* ******************************* */
 /* HOW IT WORKS SECTION */
 /* ******************************* */
+
 .section-how {
   padding: 9.6rem 0;
-  background-color: orangered;
+}
+
+.step-img {
+  width: 50%;
 }
