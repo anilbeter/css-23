@@ -220,3 +220,8 @@
 .section-meals {
   padding: 9.6rem 0;
 }
+
+.meal-img {
+  /* 3 grid column var, 100% yaparak 1 columnun tamamını kaplamasını sağlıyorum. (3 column widthi birbirine eşit 1fr 1fr 1fr olarak ayarlamıştım) */
+  width: 100%;
+}
