@@ -226,6 +226,11 @@
   border-radius: 11px;
   /* card daki resminde kenarları radiuslu olsun istiyorum, bu yüzden overflow: kullandım. overflow: hidden --> cardın üstüne gelen ne varsa gizli, resim üstte kalıyodu ve şimdi onu gizledi artık resimde de border-radius var */
   overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-1.2rem);
 }
 
 .meal-content {
