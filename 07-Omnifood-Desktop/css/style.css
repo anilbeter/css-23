@@ -224,6 +224,8 @@
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   border-radius: 11px;
+  /* card daki resminde kenarları radiuslu olsun istiyorum, bu yüzden overflow: kullandım. overflow: hidden --> cardın üstüne gelen ne varsa gizli, resim üstte kalıyodu ve şimdi onu gizledi artık resimde de border-radius var */
+  overflow: hidden;
 }
 
 .meal-tags {
