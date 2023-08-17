@@ -204,12 +204,17 @@ body {
   border: 1px solid transparent;
 }
 
+/* HELPER/SETTINGS CLASSES */
 .margin-right-sm {
   margin-right: 1.6rem;
 }
 
 .margin-bottom-md {
   margin-bottom: 4.8rem;
+}
+
+.center-text {
+  text-align: center;
 }
 
 strong {
