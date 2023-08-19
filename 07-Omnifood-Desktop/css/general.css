@@ -190,7 +190,7 @@ body {
 
 .link:link,
 .link:visited {
-  display: inline-block;
+  display: inline;
   color: #e67e22;
   text-decoration: none;
   border-bottom: 1px solid currentColor;

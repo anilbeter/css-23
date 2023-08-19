@@ -370,8 +370,19 @@
   padding: 1.6rem;
 }
 
+.gallery-item {
+  overflow: hidden;
+}
+
 .gallery-item img {
   /* img'lar default olarak inline elementler. 2 resim arasında ufak bir whitespace var, bunu ortadan kaldırmam için block element yapmalıyım */
   display: block;
   width: 100%;
+  transition: all 0.4s;
+}
+
+
+
+.gallery-item img:hover {
+  transform: scale(1.1);
 }
