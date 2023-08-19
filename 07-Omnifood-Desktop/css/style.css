@@ -353,3 +353,8 @@
   font-size: 1.6rem;
   color: #777;
 }
+
+.gallery-item img {
+  /* img'lar default olarak inline elementler. 2 resim arasında ufak bir whitespace var, bunu ortadan kaldırmam için block element yapmalıyım */
+  display: block;
+}
