@@ -375,7 +375,6 @@
 }
 
 .pricing-plan {
-  background-color: #fdf2e9;
   border-radius: 11px;
   padding: 4.8rem;
   /* paneller çok geniş oldu, biraz daraltmak istiyoruz */
@@ -385,6 +384,10 @@
 
 .pricing-plan--starter {
   justify-self: end;
+}
+
+.pricing-plan--complete {
+  background-color: #fdf2e9;
 }
 
 .plan-header {
