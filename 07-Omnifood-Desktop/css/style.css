@@ -397,6 +397,12 @@
 .pricing-plan--complete::after {
   content: "Best Value";
   position: absolute;
+  top: 0;
+  right: 0;
+
+  background-color: #ffd43b;
+  color: #333;
+  padding: 0.8rem 3.2rem;
   text-transform: uppercase;
   font-size: 1.4rem;
   font-weight: 700;
