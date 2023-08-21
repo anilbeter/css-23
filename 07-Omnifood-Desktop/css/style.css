@@ -458,4 +458,7 @@
   margin-bottom: 1.6rem;
 }
 
-.feature-text {}
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
