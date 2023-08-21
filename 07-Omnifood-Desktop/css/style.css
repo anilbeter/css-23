@@ -502,4 +502,6 @@
 
 .cta-img-box {
   background-image: url("../img/eating.jpg");
+  /* boyut ne olursa olsun, bg tamamen gözükecek cover sayesinde */
+  background-size: cover;
 }
