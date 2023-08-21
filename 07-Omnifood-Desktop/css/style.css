@@ -449,7 +449,12 @@
   margin-top: 4.8rem;
 }
 
-.feature-icon {}
+.feature-icon {
+  color: #e67e22;
+  height: 4.2rem;
+  width: 4.2rem;
+  margin-bottom: 3.2rem;
+}
 
 .feature-title {
   font-size: 2.4rem;
