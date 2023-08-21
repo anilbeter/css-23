@@ -499,7 +499,15 @@
   height: 50rem;
 }
 
-.cta-text-box {}
+.cta-text-box {
+  padding: 6.4rem;
+  color: #2e1907;
+}
+
+.cta .heading-secondary {
+  color: #2e1907;
+  margin-bottom: 3.2rem;
+}
 
 .cta-img-box {
   /* img şu an çok parlak, biraz kısmak için background-image özelliğinin üstüne gradient eklicem */
