@@ -451,9 +451,12 @@
 
 .feature-icon {
   color: #e67e22;
-  height: 4.2rem;
-  width: 4.2rem;
+  height: 3.2rem;
+  width: 3.2rem;
   margin-bottom: 3.2rem;
+  background-color: #fdf2e9;
+  padding: 1.6rem;
+  border-radius: 50%;
 }
 
 .feature-title {
