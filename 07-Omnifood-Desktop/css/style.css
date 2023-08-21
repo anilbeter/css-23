@@ -501,8 +501,10 @@
 .cta-text-box {}
 
 .cta-img-box {
-  background-image: url("../img/eating.jpg");
-  /* boyut ne olursa olsun, bg tamamen gözükecek cover sayesinde */
+  /* img şu an çok parlak, biraz kısmak için background-image özelliğinin üstüne gradient eklicem */
+  background-image: linear-gradient(to right bottom, rgba(235, 151, 78, 0.35), rgba(230, 125, 34, 0.35)),
+    url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
+
 }
