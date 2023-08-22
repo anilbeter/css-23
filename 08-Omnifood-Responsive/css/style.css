@@ -65,6 +65,13 @@
   padding: 4.8rem 0 9.6rem 0;
 }
 
+/* 0 - 1200 px arası bg color orangered */
+@media(max-width: 1200px) {
+  .section-hero {
+    background-color: orangered;
+  }
+}
+
 .hero {
   max-width: 130rem;
   margin: 0 auto;
@@ -252,9 +259,11 @@
 .tag--vegetarian {
   background-color: #51cf66;
 }
+
 .tag--vegan {
   background-color: #94d82d;
 }
+
 .tag--paleo {
   background-color: #ffd43b;
 }
@@ -504,11 +513,9 @@
 }
 
 .cta-img-box {
-  background-image: linear-gradient(
-      to right bottom,
+  background-image: linear-gradient(to right bottom,
       rgba(235, 151, 78, 0.35),
-      rgba(230, 125, 34, 0.35)
-    ),
+      rgba(230, 125, 34, 0.35)),
     url("../img/eating.jpg");
   background-size: cover;
   background-position: center;
