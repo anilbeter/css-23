@@ -568,6 +568,11 @@
   padding: 9.6rem 0;
 }
 
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
 .footer-heading {
   font-size: 1.8rem;
   font-weight: 500;
@@ -588,6 +593,15 @@
 .social-icon {
   height: 2.4rem;
   width: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+
+  /* logo-col'u dislay: flex yaptım ve bu sayede margin-top: auto çalışıyor. margin-top: auto yazınca otomatik olarak bu copyright paragrafını en aşağı alıyor */
+  margin-top: auto;
 }
 
 .footer-nav {
