@@ -149,6 +149,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    /* Hide navigation */
+
+    /* Allows NO transitions at all (display: none) */
+    /* display: none; */
+
+    /* better way for transitions/animate */
+    opacity: 0;
   }
 
   .main-nav-list {
