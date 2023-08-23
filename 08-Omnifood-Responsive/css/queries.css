@@ -149,14 +149,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: all 0.5s;
 
     /* Hide navigation */
 
     /* Allows NO transitions at all (display: none) */
     /* display: none; */
 
-    /* better way for transitions/animate */
+    /* 1) Hide it visually */
     opacity: 0;
+
+    /* 2) Make it unaccesible to mouse and keyboard */
+    pointer-events: none;
+
+    /* 3) Hide it from screen readers */
+    visibility: hidden;
   }
 
   .nav-open .main-nav {
