@@ -69,6 +69,11 @@
   color: #333;
 }
 
+/* selector with name attribute */
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /**************************/
 /* HERO SECTION */
 /**************************/
