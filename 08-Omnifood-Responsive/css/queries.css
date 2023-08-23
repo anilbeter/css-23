@@ -151,6 +151,9 @@
     justify-content: center;
     transition: all 0.5s;
 
+    /* yaptığım main-nav ı (mobil için olan) sayfanın en sağına ittim şu an gözükmüyor. amaç: nav-open'da tekrar açmak. efekt olucak sanki sağdan geliyormuş gibi */
+    transform: translateX(100%);
+
     /* Hide navigation */
 
     /* Allows NO transitions at all (display: none) */
@@ -170,6 +173,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
