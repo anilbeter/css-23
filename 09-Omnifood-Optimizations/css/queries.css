@@ -124,6 +124,8 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    /* focus statei gözüksün diye */
+    z-index: 9999;
   }
 
   .main-nav {
@@ -185,6 +187,7 @@
 /**************************/
 
 @media (max-width: 44em) {
+
   .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
